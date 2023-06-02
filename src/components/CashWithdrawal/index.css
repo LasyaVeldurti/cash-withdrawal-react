@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.cash-withdraw-container {
+  background-color: #150b3e;
+  height: 100vh;
+  padding: 30px;
+  font-family: roboto;
+  border-radius: 20px;
+  width: 500px;
+}
+.button-container {
+  display: flex;
+}
+.title-container {
+  display: flex;
+}
+.name {
+  border-radius: 80px;
+  border-style: none;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  padding: 16px;
+  margin-right: 30px;
+  width: 80px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+}
+.balance-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.balance {
+  color: #585076;
+  font-size: 24px;
+}
+.amount {
+  display: flex;
+  flex-direction: column;
+  color: #585076;
+}
+.balance-amount {
+  color: #ffffff;
+  font-size: 30px;
+}
+.amount h1 {
+  color: #ffffff;
+}
+
+.button-container {
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
